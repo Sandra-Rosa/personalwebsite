@@ -1,0 +1,119 @@
+#bg {
+    width: 1300px; margin-left: auto; margin-right: auto;
+    margin-top:200px;
+    height:700px;
+    background-color: rgb(3, 0, 0);
+    border-radius: 8px;
+    text-align: justify;
+}
+#h1 {
+    color: white;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 50px;
+letter-spacing: -0.4px;
+word-spacing: -0.4px;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: capitalize;
+    margin-top: -10px;
+    margin-left: 70px;
+    transition: font-size 0.5s;
+}
+#h1:hover{
+    font-size:70px;
+}
+#p {
+    font-family: Tahoma, Geneva, sans-serif;
+    letter-spacing: -0.4px;
+word-spacing: -0.4px;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: capitalize;
+color: white;
+margin-top: 300px;
+    margin-left: 70px;
+}
+#img {
+    display: block;
+    position: absolute;
+    align-content: flex-end;
+    top: 50px;
+    right: 50px;
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+    animation-name: example;
+  animation-duration: 2s;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes example{
+    0% {
+        right:10px;
+    }
+    
+    100% {
+        right:60px;
+    }
+}
+.line{
+    width: 490px;
+    height: 47px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    margin-top: -65px;
+    margin-left: 70px;
+    }
+#p2 {
+    font-family: Tahoma, Geneva, sans-serif;
+    letter-spacing: -0.4px;
+word-spacing: -0.4px;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: capitalize;
+color: white;
+margin-top: 25px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+#p3 {
+    font-family: Tahoma, Geneva, sans-serif;
+    letter-spacing: -0.4px;
+word-spacing: -0.4px;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: capitalize;
+color: white;
+margin-top: 20px;
+    margin-left: 70px;
+    font-size: small;
+}
+#a1 {
+    margin-left: 70px;
+    color: white;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+#a2{
+    color: white;
+    margin-left:15px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+#a3{
+    color: white;
+    margin-left:15px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+#a4{
+    color: white;
+    margin-left:15px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
